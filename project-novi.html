@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Novi</title>
+    <style>
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(to bottom right, #ffb6d9, #ffd6e8);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            background: #ffffff;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(255, 90, 144, 0.3);
+            border: 2px solid #ff8ebe;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff4ba0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 3px solid #ff8ebe;
+            box-shadow: 0px 4px 10px rgba(255, 120, 160, 0.3);
+        }
+
+        a.back {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            background: #ff4ba0;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 3px 10px rgba(255,80,150,0.4);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Project Novi</h1>
+
+    <div class="gallery">
+        <img src="gambar/foto.1.jpeg" alt="Project 1">
+        <img src="gambar/foto.2.jpeg" alt="Project 2">
+        <img src="gambar/foto.3.jpeg" alt="Project 3">
+        <img src="gambar/foto.4.jpeg" alt="Project 4">
+    </div>
+
+    <a href="novi.html" class="back">⬅ Kembali ke Profil</a>
+</div>
+
+</body>
+</html>
